@@ -40,5 +40,5 @@ a {
     color:#C71585;
 }
 a:hover {
-    color: white;
+    color: var(--bg-color);
 }
