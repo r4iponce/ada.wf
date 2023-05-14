@@ -9,8 +9,7 @@
     }
 }
   
-  
-  
+
 html {
     font-family: Noto Sans;
     scroll-behavior: smooth;
@@ -22,5 +21,14 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+h1 {
+    padding-bottom: 0;
+}  
   
-  
+a {
+    color:#C71585;
+}
+a:hover {
+    color: white;
+}
