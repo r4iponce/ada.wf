@@ -1,27 +1,26 @@
-
 :root {
     --main-width: 85vw;
-  }
+}
   
-  /* large screen */
-  @media only screen and (min-width: 868px) {
-      :root {
-          --main-width: 50vw;
-      }
-  }
+/* large screen */
+@media only screen and (min-width: 868px) {
+    :root {
+        --main-width: 50vw;
+    }
+}
   
   
   
-  html {
+html {
     font-family: Noto Sans;
     scroll-behavior: smooth;
     color: #C71585;
-  }
+}
   
-  .content {
+body {
     max-width: var(--main-width);
     margin-left: auto;
     margin-right: auto;
-  }
+}
   
   
