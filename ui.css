@@ -1,6 +1,6 @@
 :root {
     --main-width: 85vw;
-    --title-color: #C71585;
+    --title-color: hotpink;
     --bg-color: white;
     --text-color: #212121;
 
@@ -9,7 +9,6 @@
 @media (prefers-color-scheme: dark) {
     :root {
       --bg-color: #212121;
-      --title-color: #FF69B4;
       --text-color: white;
     }
 }
