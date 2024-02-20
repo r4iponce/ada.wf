@@ -1,0 +1,6 @@
+[submodule "blog/themes/manis"]
+	path = blog/themes/manis
+	url = https://github.com/yursan9/manis-hugo-theme.git
+[submodule "blog/themes/HugoTex"]
+	path = blog/themes/HugoTex
+	url = https://github.com/kaisugi/HugoTeX
