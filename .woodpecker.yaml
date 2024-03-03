@@ -1,0 +1,17 @@
+steps:
+  - name: publish_image
+    image: woodpeckerci/plugin-docker-buildx
+    settings:
+      repo: git.gnous.eu/${CI_REPO_OWNER}/website
+      dockerfile: Dockerfile
+      platforms: linux/amd64
+      registry: https://git.gnous.eu
+      tag: ${CI_COMMIT}
+      username:
+          from_secret: docker_username
+      password:
+        from_secret: docker_password
+    when:
+      branch: ${CI_REPO_DEFAULT_BRANCH}
+      event: push
+

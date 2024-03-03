@@ -1,0 +1,89 @@
+:root {
+    --main-width: 85vw;
+    --title-color: #ff008C;
+    --bg-color: white;
+    --text-color: #212121;
+
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+      --bg-color: #212121;
+      --text-color: white;
+    }
+}
+
+/* large screen */
+@media only screen and (min-width: 868px) {
+    :root {
+        --main-width: 50vw;
+    }
+}
+  
+
+html {
+    font-family: system-ui;
+    scroll-behavior: smooth;
+    color: var(--text-color);
+}
+  
+body {
+    max-width: var(--main-width);
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--bg-color);
+    line-height: 1.65;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: normal;
+    color: var(--title-color);
+    margin-bottom: 2px;
+    margin-top: 0px;
+    a:hover {
+        margin-left: 4px;
+        text-decoration: solid underline 3px;
+    }
+    
+}
+
+a {
+    color: dodgerblue;
+    text-decoration: none;
+    transition: ease 250ms;
+    font-weight: 600;
+}
+
+a:hover {
+    color: var(--title-color);
+    text-decoration: underline;
+}
+
+a:visited {
+    color: var(--title-color);
+}
+
+h1, h2 {
+    margin-bottom: 2px;
+    font-weight: 600;
+    color: var(--title-color)
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 2;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+header {
+    text-align: center;
+    p {
+        font-size: 20px;
+        font-weight: 600px;
+        word-spacing: 3px;
+    }
+}

@@ -1,0 +1,7 @@
+public/
+README.md
+.git
+.woodpecker.yaml
+Dockerfile
+docker-compose.yaml
+.gitignore
